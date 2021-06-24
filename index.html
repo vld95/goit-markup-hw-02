@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
-    <header>
-        <nav>
-          <a href="./"> WebStudio</a>
-            <ul>
-              <li><a href="#">Студия</a></li>
-              <li><a href="#">Портфолио</a></li>
-              <li><a href="#">Контакты</a></li>
+    <header class="page-head">
+        <nav class="navigation">
+          <a class="logo" href="./"> <span class="logo-span">Web</span><span class="logo-span-footer">Studio</span></a>
+            <ul class="menu">
+              <li class="menu-item"><a class="menu-link" href="#">Студия</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Портфолио</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Контакты</a></li>
            </ul>
-        </nav>
-   
+        </nav> 
+
        <ul>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="modal-btn" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
 
        </ul>
     
@@ -28,10 +31,10 @@
     
     <main>
         <!--Hero-->
-        <section>
+        <section class="hero">
             
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Зказать услугу</button>
+                <h1 class="hero-face">Эффективные решения для вашего бизнеса</h1>
+                <button class="hero-button" type="button"><span class="hero-button-on">Заказать услугу</span></button>
             
         </section>
         <section>
@@ -39,28 +42,28 @@
             <ul>
                 
                 <li>
-                    <h4>Внимание к деталям</h4> 
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p> 
+                    <h4 class="features-main">Внимание к деталям</h4> 
+                    <p class="features-wrds">Идейные соображения, а также начало повседневной работы по формированию позиции.</p> 
                 </li>
                 <li>
-                    <h4>Пунктуальность</h4>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
+                    <h4 class="features-main">Пунктуальность</h4>
+                    <p class="features-wrds">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> 
                 </li>
                 <li>
-                    <h4>Планирование</h4>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p> 
+                    <h4 class="features-main">Планирование</h4>
+                    <p class="features-wrds">Равным образом консультация с широким активом в значительной степени обуславливает.</p> 
                 </li>
                 
                 <li>
-                    <h4>Современные технологии</h4>
-                    <p> Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h4 class="features-main">Современные технологии</h4>
+                    <p class="features-wrds"> Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <section>
          <!--What are we doing-->  
-         <h2>Чем мы занимаемся</h2>
-         <ul>
+         <h2 class="what-do">Чем мы занимаемся</h2>
+         <ul class="what-do-list">
              <li>
                  <img src="./images/img.png" alt="Процесс выполнения работы" width="370" height="294">
              </li>
@@ -73,50 +76,95 @@
          </ul> 
         </section>
         <section>
-            <!--Our team-->.
-         <h2>Наша команда</h2>
-         <ul>
-             <li>   
-                <img src="./images/id.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                <h4>Игорь Демьяненко</h4>
-                <p lang="en">Product Designer</p>
-             </li>
-             <li>
-                 <img src="./images/or.jpg" alt="Ольга Репина" width="270" height="260">
-                 <h4>Ольга Репина</h4>
-                 <p lang="en">Frontend Developer</p>
-                
-            </li>
-             <li>
-                 <img src="./images/nt.jpg" alt="Николай Тарасов" width="270" height="260">
-                 <h4>Николай Тарасов</h4>
-                 <p lang="en">Marketing</p>
+             <!--Our team-->.
+             <h2 class="ourteam">Наша команда</h2>
+             <ul class="team-list">
+                 <li>   
+                    <img src="./images/id.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <h4 class="team-list-name">Игорь Демьяненко</h4>
+                    <p class="team-list-post" lang="en">Product Designer</p>
+                 </li>
+                 <li>
+                     <img src="./images/or.jpg" alt="Ольга Репина" width="270" height="260">
+                     <h4 class="team-list-name">Ольга Репина</h4>
+                     <p class="team-list-post" lang="en">Frontend Developer</p>
+                    
+                </li>
+                 <li>
+                     <img src="./images/nt.jpg" alt="Николай Тарасов" width="270" height="260">
+                     <h4 class="team-list-name">Николай Тарасов</h4>
+                     <p class="team-list-post" lang="en">Marketing</p>
+    
+                 </li>
+                 <li>
+                     <img src="./images/me.jpg" alt="Михаил Ермаков" width="270" height="260">
+                     <h4 class="team-list-name">Михаил Ермаков</h4>
+                     <p class="team-list-post" lang="en">UI Designer</p>
+    
+                 </li>
+             </ul>
+    
+            </section>
+        </main>
+     <footer class="footer">
+         <!--Footer-->
+         <a class="logo" href="./"> <span class="logo-span">Web</span><span class="logo-span-footer">Studio</span></a>
+    <address class="address">
+        <ul class="address-list">
+            <li class="cont-link-map"><a href="https://goo.gl/maps/z3iKho7BQSb7Ebv67" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="modal-btn"><a href="mailto:info@example.com">info@example.com</a></li>
+            <li class="tel-link"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+    
+    </address>
+       
+     </footer>
+    </body>
+    </html>
 
-             </li>
-             <li>
-                 <img src="./images/me.jpg" alt="Михаил Ермаков" width="270" height="260">
-                 <h4>Михаил Ермаков</h4>
-                 <p lang="en">UI Designer</p>
 
-             </li>
-         </ul>
 
-        </section>
-    </main>
- <footer>
-     <!--Footer-->
-     <a href="./">
-        WebStudio 
-     </a>
-<address>
-    <ul>
-        <li><a href="https://goo.gl/maps/z3iKho7BQSb7Ebv67" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-    </ul>
 
-</address>
-   
- </footer>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             

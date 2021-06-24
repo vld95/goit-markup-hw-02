@@ -1,0 +1,234 @@
+/*===header===*/
+
+.logo-span{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
+.logo-span-footer{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.menu-link {
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+
+}
+.menu-link:hover,
+.menu-link:focus{
+    color:  #2196F3;
+}
+
+.tel-link{
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.madal-btn{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #212121;
+}
+.madal-btn:hover,
+.madal-btn:focus{
+    color: #2196F3;
+}
+
+
+/*===hero===*/
+.hero {
+    background-color:#2F303A;
+    color: floralwhite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 4;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+
+  .hero-button {
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: fff;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+
+  .hero-button-on {
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--back-color);
+
+/*===features===*/
+.featuers-main{
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+}
+
+.features-wrds{
+font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+/*===What are we doing===*/
+ .what-do{
+    
+font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+ }
+
+ /*===Our team===*/
+ .ourteam{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+     color: #212121;
+    
+ }
+ .team-list{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    
+ }
+ .team-list-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+     text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+ }
+ .team-list-post{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+ }
+
+ /*===footer===*/
+
+ .footer{
+    background: #2F303A;
+    text-align: left;
+ }
+
+.cont-link-map{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+
+.tel-link{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+    
+    .madal-btn{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .madal-btn:hover,
+    .madal-btn:focus{
+        color: #2196F3;
+    }
+
+
+    /*-----------------------portfolio-----------------------*/
+
+    .nav-button{
+    family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    }
+    
+
+ .nav-button:hover,
+ .nav-button:focus,
+ .nav-button.current {
+ background-color:#2196F3 ;
+ color: #FFFFFF;
+ cursor: pointer;
+}
