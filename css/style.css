@@ -92,6 +92,7 @@ color: #212121;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--back-color);
+  }
 
 /*===features===*/
 .featuers-main{
@@ -139,14 +140,9 @@ color: #212121;
      color: #212121;
     
  }
- .team-list{
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+ 
     
- }
+ 
  .team-list-name{
     font-style: normal;
     font-weight: 500;
@@ -212,7 +208,7 @@ color: #FFFFFF;
     /*-----------------------portfolio-----------------------*/
 
     .nav-button{
-    family: Roboto;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -225,10 +221,34 @@ color: #FFFFFF;
     }
     
 
+
+    /*===port hero===*/
  .nav-button:hover,
  .nav-button:focus,
  .nav-button.current {
  background-color:#2196F3 ;
  color: #FFFFFF;
  cursor: pointer;
+}
+
+
+.project-name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height:1.83;/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.project-type{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575 ;
 }
