@@ -35,6 +35,11 @@ color: #212121;
     color:  #2196F3;
 }
 
+ul{
+    list-style-type: none;
+   
+}
+
 .tel-link{
 font-family: Roboto;
 font-weight: 500;
