@@ -1,3 +1,7 @@
+body{
+  font-family: Roboto;
+}
+
 /*===header===*/
 
 
@@ -23,7 +27,7 @@ color: #212121;
 }
 
 .menu-link {
-font-family: Roboto;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -44,7 +48,7 @@ a,
 }
 
 .tel-link{
-font-family: Roboto;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -81,8 +85,7 @@ color: #212121;
   }
 
   .hero-face{
-    font-family: Roboto;
-    font-style: normal;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -118,7 +121,7 @@ color: #212121;
 
 /*===features===*/
 .featuers-main{
-font-family: Roboto;
+
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
@@ -130,7 +133,7 @@ color: #212121;
 }
 
 .features-wrds{
-font-family: Roboto;
+
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -142,7 +145,7 @@ color: #757575;
 /*===What are we doing===*/
  .what-do{
     
-font-family: Roboto;
+
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16;
@@ -167,8 +170,7 @@ color: #212121;
     
  
  .team-list-name{
-   font-family: Roboto;
-   font-style: normal;
+ 
    font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
@@ -179,8 +181,7 @@ color: #212121;
 
  }
  .team-list-post{
-    font-family: Roboto;
-    font-style: normal;
+ 
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
@@ -198,8 +199,7 @@ color: #212121;
  }
 
 .cont-link-map{
-font-family: Roboto;
-font-weight: normal;
+
 font-size: 14px;
 line-height: 1.71;
 /* or 171% */
@@ -209,7 +209,7 @@ color: #FFFFFF;
 }
 
 .tel-link{
-    font-family: Roboto;
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -218,8 +218,7 @@ color: #FFFFFF;
     }
     
     .madal-btn{
-    font-family: Roboto;
-    font-style: normal;
+    
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -237,8 +236,7 @@ color: #FFFFFF;
     /*-----------------------portfolio-----------------------*/
 
     .nav-button{
-    font-family: Roboto;
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -262,8 +260,7 @@ color: #FFFFFF;
 
 
 .project-name{
-    font-family: Roboto;
-font-style: normal;
+ 
 font-weight: normal;
 font-size: 18px;
 line-height:1.83;/* identical to box height, or 200% */
@@ -272,8 +269,7 @@ color: #212121;
 }
 
 .project-type{
-font-family: Roboto;
-font-style: normal;
+
 font-weight: normal;
 font-size: 16px;
 line-height: 30px;
